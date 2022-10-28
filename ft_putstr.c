@@ -6,7 +6,7 @@
 /*   By: yajallal < yajallal@student.1337.ma >      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 11:08:43 by yajallal          #+#    #+#             */
-/*   Updated: 2022/10/25 15:06:49 by yajallal         ###   ########.fr       */
+/*   Updated: 2022/10/28 08:12:36 by yajallal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,6 @@ void	ft_putstr(char *s, int *count)
 		*count += ft_strlen(s);
 		write(1, s, ft_strlen(s));
 	}
-}
-
-void	ft_putchar_fd(char c, int fd)
-{
-	write(fd, &c, 1);
 }
 
 void	ft_putchar(char c, int *count)
